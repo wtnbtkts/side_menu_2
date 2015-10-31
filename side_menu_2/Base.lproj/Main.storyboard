@@ -72,7 +72,7 @@
             </objects>
             <point key="canvasLocation" x="304" y="2103"/>
         </scene>
-        <!--飲食店を探そう-->
+        <!--〜飲食店を探そう〜-->
         <scene sceneID="Nd2-lu-RMM">
             <objects>
                 <viewController id="8vl-ow-cT0" customClass="VC" customModule="side_menu_2" customModuleProvider="target" sceneMemberID="viewController">
@@ -90,6 +90,10 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pasta.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="29A-y8-SXD">
                                 <rect key="frame" x="187" y="64" width="188" height="140"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pasta.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qVk-VA-MKH">
+                                <rect key="frame" x="187" y="620" width="188" height="47"/>
                                 <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pizza.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ILF-oU-uww">
@@ -120,17 +124,13 @@
                                 <rect key="frame" x="0.0" y="482" width="188" height="140"/>
                                 <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pasta.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qVk-VA-MKH">
-                                <rect key="frame" x="187" y="620" width="188" height="47"/>
-                                <animations/>
-                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="飲食店を探そう" id="ZlJ-tH-EdS">
+                    <navigationItem key="navigationItem" title="〜飲食店を探そう〜" id="ZlJ-tH-EdS">
                         <barButtonItem key="leftBarButtonItem" title="最寄駅" id="TTm-JU-n0Z">
-                            <color key="tintColor" red="0.0" green="1" blue="0.10588236149999999" alpha="1" colorSpace="deviceRGB"/>
+                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="toggleSideMenu:" destination="8vl-ow-cT0" id="bXf-55-xWi"/>
                             </connections>
